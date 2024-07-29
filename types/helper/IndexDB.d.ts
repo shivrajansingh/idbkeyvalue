@@ -1,0 +1,11 @@
+export declare const openDB: (dbName: string) => Promise<IDBDatabase>;
+export declare const insertIDB: (key: string, value: any, dbName?: string) => Promise<boolean>;
+export declare const getIDB: (key: string, dbName?: string) => Promise<any>;
+export declare const updateIDB: (key: string, newValue: any, dbName?: string) => Promise<string>;
+export declare const deleteIDB: (key: string, dbName?: string) => Promise<string>;
+export declare const setIDB: (key: string, value: any, dbName?: string) => Promise<string>;
+export declare const deleteDBIDB: (dbName?: string) => Promise<string>;
+export declare const clearAllKeys: (dbName?: string) => Promise<string>;
+export declare const getAll: (dbName?: string) => Promise<any[]>;
+export declare function getAllDatabaseNames(): Promise<string[]>;
+export declare const getBy: (dbName: string, condition: Record<string, any>) => Promise<any[]>;

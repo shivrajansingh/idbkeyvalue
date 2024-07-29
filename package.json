@@ -1,0 +1,61 @@
+{
+  "name": "idbkeyvalue",
+  "version": "1.2.5",
+  "description": "This npm package provides a simple and efficient key-value storage solution using the IndexedDB API. IndexedDB is a low-level API for client-side storage of significant amounts of structured data. With this package, you can easily open or create an IndexedDB database, set, get, update, and delete key-value pairs, offering a flexible and powerful data management solution for web applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IndexedDB",
+    "Key-Value",
+    "Storage",
+    "Web",
+    "Storage",
+    "Database",
+    "Management",
+    "Client-Side",
+    "Storage",
+    "Data",
+    "Persistence",
+    "CRUD",
+    "Operations",
+    "Atomic",
+    "Transactions",
+    "Web",
+    "Development",
+    "NPM",
+    "Package",
+    "Data",
+    "Management",
+    "Structured",
+    "Data",
+    "Database",
+    "API",
+    "Data",
+    "Integrity",
+    "Data",
+    "Consistency",
+    "Web",
+    "Applications",
+    "JavaScript",
+    "Library",
+    "Frontend",
+    "Development",
+    "Storage",
+    "Solution",
+    "Browser",
+    "Storage"
+  ],
+  "author": "Technical Heist",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ]
+}
