@@ -1,6 +1,6 @@
 {
   "name": "idbkeyvalue",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "This npm package provides a simple and efficient key-value storage solution using the IndexedDB API. IndexedDB is a low-level API for client-side storage of significant amounts of structured data. With this package, you can easily open or create an IndexedDB database, set, get, update, and delete key-value pairs, offering a flexible and powerful data management solution for web applications.",
   "main": "dist/index.js",
   "scripts": {
@@ -57,5 +57,14 @@
   "files": [
     "dist",
     "types"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shivrajansingh/idbkeyvalue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivrajansingh/idbkeyvalue.git/issues"
+  },
+  "homepage": "https://github.com/shivrajansingh/idbkeyvalue.git#readme",
+  "license": "MIT"
 }
